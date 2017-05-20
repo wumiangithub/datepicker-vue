@@ -6,13 +6,11 @@
 npm install datepicker-vue --save-dev
 
 使用方法：
+“<div @click="dateShow = true"><br/>
+    <input type="text" readonly v-model="dateTime" placeholder="请选择时间" style="font-size: 40px"/><br/>
+ </div><br/>
+ <date @dateClick="dateClick" @dateBack="dateBack" v-show="dateShow" :max="max" :openTime="openTime" :min="min"></date><br/>”
 
-// <div class="hello"><br/>
-//   <div @click="dateShow = true"><br/>
-//      <input type="text" readonly v-model="dateTime" placeholder="请选择时间" style="font-size: 40px"/><br/>
-//    </div><br/>
-//   <date @dateClick="dateClick" @dateBack="dateBack" v-show="dateShow" :max="max" :openTime="openTime" :min="min"></date><br/>
-// </div><br/>
 
 <script><br/>
   import date from 'datepicker-vue'<br/>
