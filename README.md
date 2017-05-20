@@ -17,6 +17,12 @@ openTime    //传给时间插件展示的选中时间。默认今天。<br/>
 今天是2017.05.20对于单身狗的程序员只能在家撸代码。感觉现在vue的组件比较缺。刚好有时间写了一个。希望对大家有帮助。
 如果觉得有用，希望能给一颗星星。您的鼓励是我前行最大的动力。
 
+废话不多说看效果。
+
+![效果图](./img/show1.png)
+![效果图](./img/show2.png)
+
+
 
 详细使用方法：
 //<date @dateClick="dateClick" @dateBack="dateBack" v-show="dateShow" :max="max" :openTime="openTime" :min="min"></date><br/>”
@@ -55,6 +61,5 @@ openTime    //传给时间插件展示的选中时间。默认今天。<br/>
 </script><br/>
 
 
-![效果图](./img/show1.png)
-![效果图](./img/show2.png)
+
 
