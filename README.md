@@ -2,12 +2,21 @@
 
 > A Vue.js 2.0  时间选择 project
 
+基本使用步骤
 首先
 npm install datepicker-vue --save-dev
 
-使用方法：
+import date from 'datepicker-vue'
 
-//<input type="text" readonly v-model="dateTime" placeholder="请选择时间" style="font-size: 40px"/>
+//可选择绑定属性<br/>
+tipDivText  //就是文字提示信息，默认为空。 可以为'出发啊，等文字提示信息'<br/>
+min         //最小时间。默认今天<br/>
+max         //最大时间。默认2019-05-20<br/>
+openTime    //传给时间插件展示的选中时间。默认今天。<br/>
+
+
+
+详细使用方法：
 //<date @dateClick="dateClick" @dateBack="dateBack" v-show="dateShow" :max="max" :openTime="openTime" :min="min"></date><br/>”
 
 
@@ -43,11 +52,6 @@ npm install datepicker-vue --save-dev
 }<br/>
 </script><br/>
 
-//可选择绑定属性<br/>
-tipDivText  //就是文字提示信息，默认为空。 可以为'出发啊，等文字提示信息'<br/>
-min         //最小时间。默认今天<br/>
-max         //最大时间。默认2019-05-20<br/>
-openTime    //传给时间插件展示的选中时间。默认今天。<br/>
 
 ![效果图](./img/show1.png)
 ![效果图](./img/show2.png)
