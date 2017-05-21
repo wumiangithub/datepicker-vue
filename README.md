@@ -1,11 +1,12 @@
 # datePicker-vue
-
-> A Vue.js 2.0  时间选择 project
-<html> 
-<body>
-<div>基本使用步骤</div>
-<div>npm install datepicker-vue --save-dev</div>
-<div>import date from 'datepicker-vue'</div>
+基本使用步骤<br/>
+npm install datepicker-vue --save-dev<br/>
+import date from 'datepicker-vue'<br/>
+> A Vue.js 2.0  移动端滚动时间选择器，兼容各种手机 project<br/>
+![效果图](./img/show1.png)<br/>
+详细使用方法：<br/>
+```vue
+<template> 
 <div>可选择绑定的四个属性</div>
 <div>tipDivText  文字提示信息。 默认为空。         string类型  可以为'出发'等简短文字提示信息'</div>
 <div>min         最小时间。     默认今天           string类型 'yyyy-mm-dd'</div>
@@ -14,12 +15,8 @@
 <div>今天是2017.05.20对于单身狗的程序员只能在家撸代码。感觉现在vue的组件比较缺。刚好有时间写了一个。希望对大家有帮助。</div>
 <div>如果觉得有用，希望能给一颗星星。您的鼓励是我前行最大的动力。</div>
 <div>废话不多说看效果。</div>
-</body>
-</html>  
-![效果图](./img/show1.png)<br/>
-详细使用方法：<br/>
-```vue
-<template>  
+
+
 <date @dateClick="dateClick" @dateBack="dateBack" v-show="dateShow" :max="max" :openTime="openTime" :min="min"></date>
 </template> 
 <script>
