@@ -4,9 +4,8 @@ npm install datepicker-vue --save-dev<br/>
 import date from 'datepicker-vue'<br/>
 > A Vue.js 2.0  移动端滚动时间选择器，兼容各种手机 project<br/>
 ![效果图](./img/show1.png)<br/>
-详细使用方法：<br/>
-```vue
-<template> 
+绑定tipDivText<br/> 
+![效果图](./img/show2.png)<br/>
 <div>可选择绑定的四个属性</div>
 <div>tipDivText  文字提示信息。 默认为空。         string类型  可以为'出发'等简短文字提示信息'</div>
 <div>min         最小时间。     默认今天           string类型 'yyyy-mm-dd'</div>
@@ -16,7 +15,9 @@ import date from 'datepicker-vue'<br/>
 <div>如果觉得有用，希望能给一颗星星。您的鼓励是我前行最大的动力。</div>
 <div>废话不多说看效果。</div>
 
-
+详细使用方法：<br/>
+```vue
+<template> 
 <date @dateClick="dateClick" @dateBack="dateBack" v-show="dateShow" :max="max" :openTime="openTime" :min="min"></date>
 </template> 
 <script>
@@ -50,6 +51,5 @@ import date from 'datepicker-vue'<br/>
 
 }
 </script>
-绑定tipDivText 
-![效果图](./img/show2.png)<br/>
+
 
