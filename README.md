@@ -9,10 +9,10 @@ npm install datepicker-vue --save-dev
 import date from 'datepicker-vue'
 
 //可选择绑定属性<br/>
-tipDivText  //就是文字提示信息，默认为空。 可以为'出发啊，等文字提示信息'<br/>
-min         //最小时间。默认今天<br/>
-max         //最大时间。默认2019-05-20<br/>
-openTime    //传给时间插件展示的选中时间。默认今天。<br/>
+tipDivText  //就是文字提示信息，默认为空。 可以为'出发啊，等文字提示信息'  string类型<br/> 
+min         //最小时间。默认今天   string类型 'yyyy-mm-dd'<br/>
+max         //最大时间。默认2019-05-20   string类型 'yyyy-mm-dd'<br/>
+openTime    //传给时间插件展示的选中时间。默认今天。 string类型 'yyyy-mm-dd'<br/>
 
 今天是2017.05.20对于单身狗的程序员只能在家撸代码。感觉现在vue的组件比较缺。刚好有时间写了一个。希望对大家有帮助。
 如果觉得有用，希望能给一颗星星。您的鼓励是我前行最大的动力。
