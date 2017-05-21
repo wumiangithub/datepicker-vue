@@ -25,7 +25,7 @@ openTime    //传给时间插件展示的选中时间。默认今天。 string�
 
 
 详细使用方法：
-//<date @dateClick="dateClick" @dateBack="dateBack" v-show="dateShow" :max="max" :openTime="openTime" :min="min"></date><br/>”
+//"<date @dateClick="dateClick" @dateBack="dateBack" v-show="dateShow" :max="max" :openTime="openTime" :min="min"></date><br/>”
 
 
 <script><br/>
