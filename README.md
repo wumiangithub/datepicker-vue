@@ -1,7 +1,6 @@
 # datePicker-vue
 
 > A Vue.js 2.0  时间选择 project
-```html
 <html> 
 <body>
 <div>基本使用步骤</div>
