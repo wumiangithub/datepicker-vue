@@ -4,17 +4,16 @@ npm install datepicker-vue --save-dev<br/>
 import date from 'datepicker-vue'<br/>
 > A Vue.js 2.0  移动端滚动时间选择器，兼容各种手机 project<br/>
 ![效果图](./img/show1.png)<br/>
+可选择绑定的四个属性</br>
+tipDivText  文字提示信息。 默认为空。         string类型  可以为'出发'等简短文字提示信息'</br>
+min         最小时间。     默认今天           string类型 'yyyy-mm-dd'</br>
+max         最大时间。     默认为2019-05-20   string类型 'yyyy-mm-dd'</br>
+openTime    选中时间。     默认今天。         string类型 'yyyy-mm-dd'</br>
+今天是2017.05.20对于单身狗的程序员只能在家撸代码。感觉现在vue的组件比较缺。刚好有时间写了一个。希望对大家有帮助。</br>
+如果觉得有用，希望能给一颗星星。您的鼓励是我前行最大的动力。</br>
+废话不多说看效果。</br>
 绑定tipDivText<br/> 
 ![效果图](./img/show2.png)<br/>
-<div>可选择绑定的四个属性</div>
-<div>tipDivText  文字提示信息。 默认为空。         string类型  可以为'出发'等简短文字提示信息'</div>
-<div>min         最小时间。     默认今天           string类型 'yyyy-mm-dd'</div>
-<div>max         最大时间。     默认为2019-05-20   string类型 'yyyy-mm-dd'</div>
-<div>openTime    选中时间。     默认今天。         string类型 'yyyy-mm-dd'</div>
-<div>今天是2017.05.20对于单身狗的程序员只能在家撸代码。感觉现在vue的组件比较缺。刚好有时间写了一个。希望对大家有帮助。</div>
-<div>如果觉得有用，希望能给一颗星星。您的鼓励是我前行最大的动力。</div>
-<div>废话不多说看效果。</div>
-
 详细使用方法：<br/>
 ```vue
 <template> 
