@@ -1,5 +1,8 @@
 # datePicker-vue
 基本使用步骤<br/>
+
+前端交流群:  602996760
+
 npm install datepicker-vue --save-dev<br/>
 import date from 'datepicker-vue'<br/>
 > A Vue.js 2.0  移动端滚动时间选择器，兼容各种手机 project<br/>
